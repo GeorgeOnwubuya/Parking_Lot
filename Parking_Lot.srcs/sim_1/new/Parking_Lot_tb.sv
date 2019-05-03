@@ -113,8 +113,8 @@ module Parking_Lot_tb();
     endtask;
     
     initial begin
-      	$dumpfile("dump.vcd");
-      	$dumpvars;
+      	//$dumpfile("dump.vcd");
+      	//$dumpvars;
         SD1 = 1;
         SD2 = 1;
       
